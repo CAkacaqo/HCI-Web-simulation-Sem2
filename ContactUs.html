@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="Validation.js"></script>
+</head>
+<body>
+
+    <header>
+        <a href="HomePageVKellog.html">
+            <h1> VKellog's</h1>
+            <img src="Assets/VKellog’s.png" alt="VKellogs">
+        </a>
+        
+    </header>
+    <div class="Menu-bar">
+        <ul>
+            <li> <a href="OurProductsPage.html">Our Products</a> </li>
+            <li> <a href="RecipesPage.html">Recipes</a> </li>
+            <li> <a href="AboutUs.html">About Us</a> </li>
+            <li> <a href="ContactUs.html">Contact Us</a> </li>
+        </ul>
+
+    </div>
+
+    <div class="ContactUs">
+
+        <div class="Box">
+            <div class="form">
+                <form onsubmit="return Validasi()">
+                    <label for="first">First name:</label><br>
+                    <input type="text" id="first" name="first" placeholder="Enter your firstname"><br><br>
+
+                    <label for="last">Last name:</label><br>
+                    <input type="text" id="last" name="last" placeholder="Enter your lastname"><br><br>
+
+                    <label for="email">E-mail:</label><br>
+                    <input type="text" id="email" name="email" placeholder="Enter your E-mail"><br><br>
+
+                    <label for="phone">Phone number:</label><br>
+                    <input type="text" id="phone" name="phone" placeholder="Ex : 085993848823"><br><br>
+
+                    <label for="problem">Inquiries:</label><br>
+                    <textarea id="problem" name="problem" rows="4" cols="50" placeholder="Fill in your inquiries"></textarea><br><br>
+                    
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
